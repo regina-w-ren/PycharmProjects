@@ -14,9 +14,10 @@ class TestLogin():
     @pytest.mark.smoke
     def test_login2(self):
         print("secondlogin")
-        assert  1==2
+        assert  1==1
 
 
     @pytest.mark.run(order=2)
+    @pytest.mark.smoke
     def test_login3(self):
         print("thirdlogin")
