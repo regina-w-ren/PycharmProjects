@@ -1,6 +1,8 @@
 from time import sleep
+from urllib import request
 
 import pytest
+import requests
 
 
 class TestLogin():
@@ -20,4 +22,9 @@ class TestLogin():
     @pytest.mark.run(order=2)
     @pytest.mark.smoke
     def test_login3(self):
+        requests.Session
+
         print("thirdlogin")
+
+
+
