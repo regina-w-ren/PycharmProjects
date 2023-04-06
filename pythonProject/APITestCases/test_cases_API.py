@@ -3,8 +3,6 @@ from urllib import request
 
 import pytest
 import requests
-
-
 class TestLogin():
     @pytest.mark.run(order=3)
     @pytest.mark.smoke
@@ -23,6 +21,7 @@ class TestLogin():
     @pytest.mark.smoke
     def test_login3(self):
         requests.Session
+        print("**********")
 
         print("thirdlogin")
 
