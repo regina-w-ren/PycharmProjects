@@ -24,7 +24,7 @@ class TestLogin():
     def test_login3(self):
         requests.Session
         print("**********")
-        print("**********")
+        print("这是冲突")
         print("thirdlogin")
 
 
