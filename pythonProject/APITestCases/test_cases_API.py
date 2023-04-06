@@ -24,6 +24,7 @@ class TestLogin():
     def test_login3(self):
         requests.Session
         print("**********")
+        print("**********")
         print("thirdlogin")
 
 
